@@ -16,7 +16,7 @@ They work in Codex, OpenCode, Claude Code, and Antigravity. `council` uses [T3 C
 | `bro` | `/bro` | Restates the last message in plain human language with no jargon. |
 | `in-your-own-words` | `/in-your-own-words` | Has the agent restate your goals and problem before doing work. |
 | `unslop` | `/unslop` | Edits writing to strip AI patterns and filler. |
-| `leaving-pr-comments` | (automatic) | Adds an AI attribution note to GitHub comments, checks for secrets, and asks for your approval in chat before posting. |
+| `leaving-pr-comments` | (automatic) / "with a note" | Writes concise GitHub comments, checks for secrets, asks for approval before posting, and adds an AI attribution note only when you say "with a note". |
 
 *(In Codex, invoke manual skills with `$skill-name` or by name; in Antigravity, ask for the skill by name. `add-skill` hands off to `bstack` if you choose to sync or push after creating a skill.)*
 
